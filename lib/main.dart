@@ -69,7 +69,7 @@ class MyWidget extends StatelessWidget {
                         style: TextStyle(
                           color: Colors.black87,
                           fontWeight: FontWeight.bold,
-                          fontSize: 50,
+                          fontSize: 35,
                         ),
                         textAlign: TextAlign.center,
                       ),

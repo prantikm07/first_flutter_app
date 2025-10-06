@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "MyApp",
-      home: const MyWidget(),
+
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
+      home: const MyWidget(),
     );
   }
 }
@@ -38,7 +39,16 @@ class MyWidget extends StatelessWidget {
           ),
           centerTitle: true,
         ),
-        body: Text('This is the body of the app.'),
+        body: const Padding(
+          padding: EdgeInsets.all(20),
+          child: Column(
+            children: [
+              Text("Helllo World!"),
+              Text("Helllo World!"),
+              Text("Helllo World!"),
+            ],
+          ),
+          ),
       );
   }
 }

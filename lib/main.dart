@@ -107,7 +107,7 @@ class MyWidget extends StatelessWidget {
                               ),
                             ),
                             child: Text(
-                              'Disike',
+                              'Dislike',
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,

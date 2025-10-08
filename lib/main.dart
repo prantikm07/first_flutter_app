@@ -74,7 +74,11 @@ class MyWidget extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                       SizedBox(height: 20),
-                      Image(image: AssetImage('assets/devark.png')),
+                      SizedBox(
+                      height: 300,
+                      width: 300,
+                      child: Image(image: AssetImage('assets/devark.png')),
+                    ),
                       SizedBox(height: 30),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
